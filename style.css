@@ -1,0 +1,284 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background-color: #1893a3;
+     font-family: sans-serif;
+}
+.container{
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.box{
+     height: 400px;
+     width: 300px;
+}
+.box1{
+     height: 150px;
+     background-color: #40c9d3;
+     border-radius: 16px 16px 0 0;
+     position: relative;
+}
+.circle{
+     background-color: #333;
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     position: absolute;
+     background-image: url(./img/Rectangle\ 52\ \(20\).png);
+     background-position: center;
+     background-size: cover;
+     border: 10px solid #fff;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%);
+     margin: auto;
+}
+.box2{
+     height: 250px;
+     background-color: #fff;
+     border-radius: 0 0 16px 16px;
+}
+.box-cont{
+     padding: 80px 40px;
+}
+.row{
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+}
+.col-1{
+     line-height: 1.5;
+     text-align: center;
+}
+.col-2{
+     display: flex;
+     flex-direction: row;
+     gap: 40px;
+     justify-content: center;
+}
+.name{
+     color: #303145;
+     font-size: 24px;
+     text-transform: capitalize;
+     letter-spacing: 2px;
+}
+.name span{
+     color: #787a86;
+}
+.city{
+     text-transform: capitalize;
+     color: #787a86;
+     letter-spacing: 2px;
+     font-size: 14px;
+}
+.col-2_cont{
+     display: flex;
+     flex-direction: column;
+     gap: 4px;
+     text-align: center;
+}
+.num{
+     color: #303145;
+     font-size: 24px;
+}
+.num-sub{
+     font-size: 14px;
+     color: #787a86;
+     text-transform: capitalize;
+}
+@media only screen and (min-width: 768px){
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     body{
+          background-color: #1893a3;
+          font-family: sans-serif;
+     }
+     .container{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .box{
+          height: 500px;
+          width: 500px;
+     }
+     .box1{
+          height: 200px;
+          background-color: #40c9d3;
+          border-radius: 16px 16px 0 0;
+          position: relative;
+     }
+     .circle{
+          background-color: #333;
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          position: absolute;
+          background-image: url(./img/Rectangle\ 52\ \(20\).png);
+          background-position: center;
+          background-size: cover;
+          border: 10px solid #fff;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%);
+     }
+     .box2{
+          height: 300px;
+          background-color: #fff;
+          border-radius: 0 0 16px 16px;
+     }
+     .box-cont{
+          padding: 80px 40px;
+     }
+     .row{
+          display: flex;
+          flex-direction: column;
+          gap: 60px;
+     }
+     .col-1{
+          line-height: 1.5;
+          text-align: center;
+     }
+     .col-2{
+          display: flex;
+          flex-direction: row;
+          gap: 70px;
+          justify-content: center;
+     }
+     .name{
+          color: #303145;
+          font-size: 27px;
+          text-transform: capitalize;
+          letter-spacing: 2px;
+     }
+     .name span{
+          color: #787a86;
+     }
+     .city{
+          text-transform: capitalize;
+          color: #787a86;
+          letter-spacing: 2px;
+          font-size: 15px;
+     }
+     .col-2_cont{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          text-align: center;
+     }
+     .num{
+          color: #303145;
+          font-size: 27px;
+     }
+     .num-sub{
+          font-size: 15px;
+          color: #787a86;
+          text-transform: capitalize;
+     }
+}
+@media only screen and (min-width: 1200px){
+     *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+     }
+     body{
+          background-color: #1893a3;
+          font-family: sans-serif;
+     }
+     .container{
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+     .box{
+          height: 600px;
+          width: 500px;
+     }
+     .box1{
+          height: 250px;
+          background-color: #40c9d3;
+          border-radius: 16px 16px 0 0;
+          position: relative;
+     }
+     .circle{
+          background-color: #333;
+          width: 180px;
+          height: 180px;
+          border-radius: 50%;
+          position: absolute;
+          background-image: url(./img/Rectangle\ 52\ \(20\).png);
+          background-position: center;
+          background-size: cover;
+          border: 10px solid #fff;
+          top: 60%;
+          left: 50%;
+          transform: translate(-50%);
+     }
+     .box2{
+          height: 350px;
+          background-color: #fff;
+          border-radius: 0 0 16px 16px;
+     }
+     .box-cont{
+          padding: 80px 50px;
+     }
+     .row{
+          display: flex;
+          flex-direction: column;
+          gap: 70px;
+     }
+     .col-1{
+          line-height: 1.5;
+          text-align: center;
+     }
+     .col-2{
+          display: flex;
+          flex-direction: row;
+          gap: 80px;
+          justify-content: center;
+     }
+     .name{
+          color: #303145;
+          font-size: 28px;
+          text-transform: capitalize;
+          letter-spacing: 2px;
+     }
+     .name span{
+          color: #787a86;
+     }
+     .city{
+          text-transform: capitalize;
+          color: #787a86;
+          letter-spacing: 2px;
+          font-size: 16px;
+     }
+     .col-2_cont{
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          text-align: center;
+     }
+     .num{
+          color: #303145;
+          font-size: 28px;
+     }
+     .num-sub{
+          font-size: 16px;
+          color: #787a86;
+          text-transform: capitalize;
+     }
+}
